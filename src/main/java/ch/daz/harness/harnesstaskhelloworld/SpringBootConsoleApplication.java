@@ -20,7 +20,7 @@ public class SpringBootConsoleApplication
 
   @Override
   public void run(String... args) {
-    LOG.info("EXECUTING : command line runner");
+    LOG.info("EXECUTING : command HARNESS-PIPELINE-JAVA-LOGIC example runner");
 
     for (int i = 0; i < args.length; ++i) {
       LOG.info("args[{}]: {}", i, args[i]);
